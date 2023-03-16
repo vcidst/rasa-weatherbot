@@ -24,20 +24,24 @@ Note that the extracted value was `austria` in lowercase in the second example b
 
 Here's the bot output,
 ```
-Bot loaded. Type a message and press enter (use '/stop' to exit): 
 Your input ->  what's the weather in berlin
 The weather at berlin is 12C with overcast skies
+
 Your input ->  what's the weather in austria
 The weather at austria is sunny with a chance of rain in the evening, bring your umbrella!
+
 Your input ->  what's the weather in london
 I do not know what's the weather at londo
+
 Your input ->  what's the weather in salzburg
 The weather at Austria is sunny with a chance of rain in the evening, bring your umbrella!
+
 Your input ->  what's the weather in spain
 It is raining heavily at spain right now
+
 Your input ->  what's the weather in Austria
 I do not know what's the weather at Austria
+
 Your input ->  what's the weather in vienna
 I do not know what's the weather at Austria
-Your input ->  /stop
 ```
