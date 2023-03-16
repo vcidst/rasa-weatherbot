@@ -16,8 +16,3 @@ rules:
   steps:
   - intent: whats_weather
   - action: utter_weather
-
-- rule: Let users pay with whatever they want
-  steps:
-  - intent: make_payment
-  - action: utter_account

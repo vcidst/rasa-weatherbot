@@ -97,34 +97,12 @@ nlu:
     - is it raining in [paris](GPE)?
     - what's the weather like that at [bangalore](GPE)?
     - weather [london](GPE)
+    - weather [city of music]{"entity": "GPE", "value": "Vienna"}
+    - weather [wien]{"entity": "GPE", "value": "Vienna"}
 
-- intent: make_payment
+- synonym: Austria
   examples: |
-    - pay with [credit account](account)
-    - pay with [savings account](account)
-    - pay with [cash](account)
-
-- synonym: Rajasthan
-  examples: |
-    - raj
-    - rajsthn
-    - rajasthan
-    - rajputana
-    - desert state of india
-    - north western india
-
-- synonym: Vienna
-  examples: |
-    - viena
-    - austrian capital
-    - city of music
-    - wien
-    - wean
-    - vienne
-
-- synonym: credit
-  examples: |
-    - credit card account
-    - credit account
-    - bnpl
-    - buy now pay later scheme
+    - vienna
+    - salzburg
+    - innbruck
+    - graz

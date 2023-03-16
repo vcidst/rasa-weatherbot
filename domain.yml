@@ -9,7 +9,6 @@ intents:
   - mood_unhappy
   - bot_challenge
   - whats_weather
-  - make_payment
 
 entities:
   - GPE
@@ -47,6 +46,10 @@ responses:
 
   utter_weather:
   - text: "The weather at {location} is sunny with a chance of rain in the evening, bring your umbrella!"
+  - text: "It is really hot outside at {location}, you should stay indoors!"
+  - text: "The weather at {location} is 12C with overcast skies"
+  - text: "I do not know what's the weather at {location}"
+  - text: "It is raining heavily at {location} right now"
 
   utter_account:
   - text: "cool, you can pay with {account}"
